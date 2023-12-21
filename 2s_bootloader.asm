@@ -77,7 +77,7 @@ start:
     mov     ax, [es:bx]
     pop     bx
 
-    cmp     ax, 0x5355
+    cmp     ax, 0x6C79
     jne     wrong_in_error
     
     call    wait_for_keypress
